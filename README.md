@@ -1,25 +1,26 @@
 # inventoryoverview
 Power BI dashboard using Contoso Retail DW focused on inventory analysis. Provides insights into inventory value, units, turnover, DIO, and stock performance by product and category, supporting data-driven decisions in retail and supply chain.
 
-📌 Visão Geral
+📊 Contoso Retail – Inventory Overview
+🇧🇷 Descrição (Português)
 
-Projeto de Business Intelligence desenvolvido em Power BI, utilizando a base Contoso Retail Data Warehouse, com foco em gestão e performance de estoque.
+Este projeto consiste em um dashboard desenvolvido no Power BI, utilizando a base Contoso Retail Data Warehouse, com foco na análise de estoque.
 
-O dashboard fornece uma visão executiva e analítica sobre níveis de estoque, giro, cobertura e eficiência operacional, apoiando a tomada de decisão em cenários de Supply Chain e Varejo.
+O painel apresenta indicadores como:
 
-🎯 Objetivos do Projeto
+Valor total em estoque
 
-Monitorar valor e quantidade de estoque
+Quantidade de itens armazenados
 
-Avaliar giro e cobertura de estoque (DIO)
+Giro de estoque (Inventory Turnover)
 
-Identificar produtos com excesso ou baixa rotatividade
+DIO (Days Inventory Outstanding)
 
-Analisar equilíbrio entre estoque e vendas
+Análises por produto, categoria e período
 
-Apoiar decisões de reposição e otimização
+O objetivo é apoiar a tomada de decisão nas áreas de varejo e supply chain, utilizando boas práticas de modelagem de dados, DAX e visualização.
 
-🛠️ Ferramentas Utilizadas
+Tecnologias utilizadas:
 
 Power BI
 
@@ -27,60 +28,36 @@ DAX
 
 Power Query
 
-SQL Server
-
 Modelagem Dimensional (Star Schema)
 
-🧱 Modelagem de Dados
+SQL (Contoso Retail DW)
 
-FactInventory
+🇺🇸 Description (English)
 
-FactSales / FactOnlineSales
+This project features a Power BI dashboard built on the Contoso Retail Data Warehouse, focused on inventory analysis.
 
-DimProduct
+The dashboard provides insights such as:
 
-DimDate
+Total inventory value
 
-DimStore
+Stock quantity
 
-DimGeography
-
-Modelo estruturado seguindo boas práticas de Data Warehouse, com separação clara entre fatos e dimensões.
-
-📐 Principais KPIs
-
-Total Inventory Value
-
-Total Inventory Units
+Inventory turnover
 
 Days Inventory Outstanding (DIO)
 
-Inventory Turnover
+Analysis by product, category, and time
 
-Average Inventory Units
+The goal is to support data-driven decision-making in retail and supply chain scenarios, applying best practices in data modeling, DAX, and data visualization.
 
-Inventory vs Sales Trend
+Technologies used:
 
-Top / Bottom Products by Turnover
+Power BI
 
-📊 Páginas do Dashboard
+DAX
 
-Inventory Overview
+Power Query
 
-Visão consolidada do estoque
+Dimensional Modeling (Star Schema)
 
-Evolução temporal com média móvel
-
-Concentração de valor por produto
-
-Tabela detalhada para análise operacional
-
-Inventory Performance
-
-Análise de giro e eficiência
-
-Comparação entre estoque e vendas
-
-Avaliação por categoria
-
-Identificação de produtos com baixa performance
+SQL (Contoso Retail DW)
