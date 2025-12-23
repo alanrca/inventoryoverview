@@ -31,7 +31,7 @@ Power Query
 Modelagem Dimensional (Star Schema)
 
 SQL (Contoso Retail DW)
-
+##################################################################################################################################################
 🇺🇸 Description (English)
 
 This project features a Power BI dashboard built on the Contoso Retail Data Warehouse, focused on inventory analysis.
